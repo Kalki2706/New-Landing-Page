@@ -1,0 +1,63 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: white;
+  /* overflow: hidden; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  float: right;
+  margin-right: 5em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+
+li {
+  padding: 1.5em 1.3em;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #ff9500;
+  transition: ease 0.3s;
+}
+
+.nav-link:hover {
+  border-bottom: 0.13em solid rgb(20, 8, 255);
+  padding: 0.18em 0;
+}
+
+.shoe-img {
+  border: none;
+  border-radius: 0.8em;
+  margin: 10em 0 0 10em;
+  width: 25%;
+  box-shadow: 0.7em 0.7em 0.7em #5e5e5e;
+}
+
+.shoe-img:hover {
+  cursor: pointer;
+}
+
+.sign-up {
+  display: inline-block;
+  margin: 20em 0 0 50px;
+  background-color: blue;
+  /* width: 20%; */
+  padding: 1em 1em 10em;
+}
