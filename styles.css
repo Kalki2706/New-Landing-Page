@@ -111,16 +111,26 @@ img {
   cursor: pointer;
 }
 
+.arrow-logo {
+  width: 2.3em;
+  height: 2.3em;
+}
+
 .arrow {
   display: flex;
   right: 0;
   border: none;
   padding: 1em;
+  color: #ff0000;
+  transition: color 0.25s;
 }
 
-.arrow-logo {
-  width: 2.3em;
-  height: 2.3em;
+.arrow:hover {
+  color: #fddd00;
+}
+
+.arrow:active {
+  color: #21df21;
 }
 
 .fb,
