@@ -97,17 +97,22 @@ img {
 .logo-nav,
 .arrow {
   bottom: 0;
-  display: flexbox;
   position: absolute;
 }
 
 .get-started {
   font-size: 0.9em;
-  border-radius: 2px;
+  border-radius: 0.26em;
   margin: 3.5em 0;
   padding: 0.8em 3.6em;
   border: none;
   letter-spacing: 2px;
+  transition: color 0.25s, background-color 0.25s;
+}
+
+.get-started:hover {
+  background-color: #0d0722;
+  color: #fe2857;
 }
 
 .get-started,
@@ -145,6 +150,7 @@ img {
   height: 1.5em;
   padding: 0.3em;
   color: #d2dde3;
+  transition: color 0.25s;
 }
 
 .logo-ul {
@@ -162,4 +168,8 @@ img {
 
 .tweet:hover {
   color: #1da1f2;
+}
+
+.ig:hover {
+  color: #fe2857;
 }
