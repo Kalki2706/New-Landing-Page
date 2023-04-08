@@ -28,13 +28,19 @@ body {
 
 .nav-li {
   font-size: 1em;
-  padding: 2em 3em;
+  padding: 2em 3em 0.5em;
   font-weight: bold;
 }
 
-a {
+.link:hover {
+  border-bottom: 0.13em solid #466d7e;
+}
+
+.link {
+  padding-bottom: 0.2em;
   text-decoration: none;
   color: #000;
+  transition: border-bottom 0.08s;
 }
 
 .com-name {
@@ -93,7 +99,6 @@ img {
   bottom: 0;
   display: flexbox;
   position: absolute;
-  margin-bottom: 0em;
 }
 
 .get-started {
@@ -136,12 +141,25 @@ img {
 .fb,
 .ig,
 .tweet {
-  width: 1.3em;
-  height: 1.3em;
-  padding: 0.4em;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.3em;
+  color: #d2dde3;
 }
 
 .logo-ul {
   list-style: none;
   padding: 0.8em;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.fb:hover {
+  color: #4267b2;
+}
+
+.tweet:hover {
+  color: #1da1f2;
 }
