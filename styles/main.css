@@ -90,4 +90,18 @@ section.hero .down-arrow {
   bottom: 1.5em;
   left: 1em;
   width: 4em;
+}
+
+.more-info img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 15em;
+}
+.more-info .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.more-info .info {
+  line-height: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
