@@ -97,3 +97,21 @@ section.hero {
     width: 4em;
   }
 }
+
+// MORE INFO
+.more-info {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 15em;
+  }
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .info {
+    line-height: 1.5rem;
+  }
+}
