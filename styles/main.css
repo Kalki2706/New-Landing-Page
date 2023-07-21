@@ -21,7 +21,6 @@ a {
   z-index: -1;
 }
 
-/* HEADER SECTION */
 .logo {
   color: #fff;
   font-weight: bold;
@@ -62,7 +61,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  background-color: #cdcdcd;
+  background: #cdcdcd;
 }
 
 header {
@@ -76,7 +75,6 @@ header svg {
   cursor: pointer;
 }
 
-/* HERO SECTION */
 h1 {
   font-size: 2.2rem;
   margin-top: 2em;
@@ -100,12 +98,11 @@ section.hero .down-arrow {
   width: 4em;
 }
 
-/* MORE INFO SECTION */
 .more-info img {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  height: 15em;
+  height: 25vh;
 }
 
 .more-info .title {
@@ -115,4 +112,11 @@ section.hero .down-arrow {
 
 .more-info .info {
   line-height: 1.5rem;
+}
+
+@media only screen and (min-width: 680px) {
+  body {
+    margin: 1.5em 5em;
+    font-family: 'Poppins', sans-serif;
+  }
 } /*# sourceMappingURL=main.css.map */
