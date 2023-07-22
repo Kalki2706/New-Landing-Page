@@ -106,6 +106,7 @@ section.hero {
     bottom: 4em;
     left: 0em;
     width: 4em;
+    animation: moveArrow 1s alternate-reverse infinite;
   }
 }
 
