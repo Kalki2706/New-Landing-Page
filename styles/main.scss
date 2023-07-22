@@ -150,3 +150,14 @@ section.hero {
     transform: translateY(0px);
   }
 }
+//SECTION-HERO
+@keyframes moveDown {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
