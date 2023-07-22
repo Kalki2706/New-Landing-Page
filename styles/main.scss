@@ -98,6 +98,8 @@ h1 {
 section.hero {
   color: #fff;
   height: 90vh;
+  animation: moveDown 1s ease-in-out forwards;
+  opacity: 0;
 
   .down-arrow {
     position: absolute;
