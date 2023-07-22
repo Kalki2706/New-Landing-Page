@@ -139,3 +139,14 @@ section.hero {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
+
+//DOWN ARROW
+@keyframes moveArrow {
+  from {
+    transform: translateY(-30px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
