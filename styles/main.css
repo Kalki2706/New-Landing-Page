@@ -12,6 +12,10 @@ a {
   font-size: 1.3rem;
 }
 
+.svg {
+  cursor: pointer;
+}
+
 .hero-img {
   position: absolute;
   top: 0;
@@ -73,10 +77,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
-header svg {
+header .menu {
   width: 3em;
   margin-top: -0.6em;
-  cursor: pointer;
 }
 
 h1 {
@@ -192,7 +195,7 @@ section.hero .down-arrow {
     width: auto;
     height: auto;
   }
-  nav svg.close {
+  nav .close {
     display: none;
   }
   nav ul {
@@ -209,7 +212,7 @@ section.hero .down-arrow {
     background: none;
     padding: 0;
   }
-  svg.menu {
+  .menu {
     display: none;
   }
   section.hero {
@@ -218,13 +221,9 @@ section.hero .down-arrow {
     height: auto;
     margin-bottom: 26em;
   }
-  section.hero svg.down-arrow {
-    stroke: #000;
+  section.hero .down-arrow {
     position: unset;
     margin-top: 13em;
-  }
-  section.hero svg.down-arrow path {
-    fill: #000;
   }
   .feature {
     display: grid;
